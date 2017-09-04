@@ -63,7 +63,7 @@
 				<p><?php echo get_post_meta($post->ID, 'megjegyz', true); ?></p>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row" style="background-color:#fff;">
 			<div class="well ">
             	<p class="register-heading">Regisztráció</p>
             	<form name="register_form" id="register_form" method="post" action="">

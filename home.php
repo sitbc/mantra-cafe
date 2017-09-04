@@ -22,7 +22,7 @@
 				<div class="main-cat">
 					<img src="<?php bloginfo('template_url'); ?>/images/cat-present.jpg" alt="előadások" class="img-responsive">
 					<div class="cat-desc">
-						<a href=""><h2>Kávé bemutatók és kóstolók <i class="fa fa-angle-double-right"></i></h2></a>
+						<a href="https://mantra-sitbc.c9users.io/kave-bemutatok-es-kostolok/"><h2>Kávé bemutatók és kóstolók <i class="fa fa-angle-double-right"></i></h2></a>
 						<p>Gyere el hozzánk barátaiddal vagy kollégáiddal egy laza előadással egybekötött  kóstolásra, ahol többek között megkóstolhatod és megtudhatod mi a különbség.</p>
 					</div>
 				</div>
@@ -31,17 +31,17 @@
 				<div class="main-cat">
 					<img src="<?php bloginfo('template_url'); ?>/images/cat-barista.jpg" alt="barista képzések" class="img-responsive">
 					<div class="cat-desc">
-						<a href=""><h2>Barista Képzések <i class="fa fa-angle-double-right"></i></h2></a>
+						<a href="https://mantra-sitbc.c9users.io/barista-kepzesek/"><h2>Barista Képzések <i class="fa fa-angle-double-right"></i></h2></a>
 						<p>Rengeteg lehetőség közül válogathatsz és ajánlásaink segítségével könnyen összeállíthatsz magadnak is egy érdeklődési körödnek megfelelő, mindenre kiterjedő képzés sorozatot.</p>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-4">
 				<div class="main-cat">
-					<img src="<?php bloginfo('template_url'); ?>/images/cat-cafe.jpg" alt="előadások" class="img-responsive">
+					<img src="<?php bloginfo('template_url'); ?>/images/cat-cafe.jpg" alt="kávézó tulajdonosoknak" class="img-responsive">
 					<div class="cat-desc">
-						<a href=""><h2>Kávézó tulajdonosoknak <i class="fa fa-angle-double-right"></i></h2></a>
-						<p>gépek használata, takarítása, napi karbantartása, alap eszpresszó készítés, tejhab és tejkrém készítés, kávés italok receptúráinak ismerete. Minden, ami a sikeres működéshez kell.</p>
+						<a href="https://mantra-sitbc.c9users.io/kavehazi-alapkepzes/"><h2>Kávézó tulajdonosoknak <i class="fa fa-angle-double-right"></i></h2></a>
+						<p>Gépek használata, takarítása, napi karbantartása, alap eszpresszó készítés, tejhab és tejkrém készítés, kávés italok receptúráinak ismerete. Minden, ami a sikeres működéshez kell.</p>
 					</div>
 				</div>
 			</div>

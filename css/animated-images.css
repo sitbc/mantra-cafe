@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+.ap {
+	background: url(../images/bkg-ap.gif);
+	background-size: cover;
+    background-position: center;
+}
+
+.beanpour {
+	background: url(../images/bkg-beanpour.gif);
+	background-size: cover;
+    background-position: center;
+}
+
+.latte-art {
+	background: url(../images/bkg-latteart.gif);
+	background-size: cover;
+    background-position: center;
+}
+
+.naked {
+	background: url(../images/bkg-naked.gif);
+	background-size: cover;
+    background-position: center;
+}
+
+.cupping {
+	background: url(../images/bkg-cupping.gif);
+	background-size: cover;
+    background-position: center;
+}
+
+.cupping-2 {
+	background: url(../images/bkg-cupping-2.gif);
+	background-size: cover;
+    background-position: center;
+}
+
+.filterpour {
+	background: url(../images/bkg-filterpour.gif);
+	background-size: cover;
+    background-position: center;
+}
+
+.bloom {
+	background: url(../images/bkg-bloom.gif);
+	background-size: cover;
+    background-position: center;
+}

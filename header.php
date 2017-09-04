@@ -3,6 +3,7 @@
 
 <head>
 	<meta charset="<?php bloginfo('charset'); ?>" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
 	<?php if (is_search()) { ?>
 	   <meta name="robots" content="noindex, nofollow" /> 
@@ -34,6 +35,10 @@
 	<link href="<?php bloginfo('template_url'); ?>/css/bootstrap.css" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat:300,400,400i,500,500i,600,600i" rel="stylesheet">
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
+	
+	<?php if (is_page_template('page-course.php')) { ?>
+		<link href="<?php bloginfo('template_url'); ?>/css/animated-images.css" rel="stylesheet" type="text/css">
+	<?php } ?>
 
 	<?php if ( is_singular() ) wp_enqueue_script('comment-reply'); ?>
 
@@ -66,5 +71,6 @@
 						'walker'            => new wp_bootstrap_navwalker())
 					);
 				?>
+				
 			</div>
 	</nav>

@@ -36,7 +36,7 @@ h2 {
 }
 
 h3 {
-	font-size: 1.4em;
+	font-size: 1.3em;
 	text-transform: uppercase;
 	font-weight: 500;
 	font-style: italic;
@@ -150,27 +150,27 @@ i {
     border-color: #c39940;
 }
 
-
-/*.navbar .navbar-nav > .open > a,
+.navbar .navbar-nav > .open > a,
 .navbar .navbar-nav > .open > a:hover,
 .navbar .navbar-nav > .open > a:focus {
-  color: #fff;
-  background-color: #866e5e;
-}*/
+  color: #747265;
+  background-color: #c39940;
+}
 	
 .dropdown-menu {
-  background-color: #fffee7;
+  background-color: #747265;
   border-radius: 0px;
 }
 .dropdown-menu > li > a {
-  color: #412918;
+  color: #fff;
   white-space: nowrap;
   border-bottom: none;
+  text-transform: uppercase;
 }
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
-  color: #fffee7;
-  background-color: #412918;
+  color: #747265;
+  background-color: #c39940;
 }
 
 .navbar-collapse {
@@ -322,6 +322,7 @@ i {
 	overflow: hidden;
 	padding-left: 0;
 	position: relative;
+	margin-bottom: 1em;
 }
 
 .main-cat a{
@@ -488,14 +489,44 @@ p.register-heading {
     background-position: center;
 }
 
-.beanpour {
-	background: url(./images/bkg-beanpour.gif);
+.barista {
+	background: url(./images/bkg-barista.jpg);
 	background-size: cover;
     background-position: center;
 }
 
-.barista {
-	background: url(./images/bkg-barista.jpg);
+.presentation {
+	background: url(./images/bkg-presentation.jpg);
+	background-size: cover;
+    background-position: center;
+}
+
+.modules {
+	background: url(./images/bkg-modules.jpg);
+	background-size: cover;
+    background-position: center;
+}
+
+.making-espresso {
+	background: url(./images/bkg-makingespresso.jpg);
+	background-size: cover;
+    background-position: center;
+}
+
+.latte {
+	background: url(./images/bkg-latte.jpg);
+	background-size: cover;
+    background-position: center;
+}
+
+.latte-heart {
+	background: url(./images/bkg-latte-heart.jpg);
+	background-size: cover;
+    background-position: center;
+}
+
+.latte-rosetta {
+	background: url(./images/bkg-latte-rosetta.jpg);
 	background-size: cover;
     background-position: center;
 }
@@ -572,8 +603,10 @@ p.register-heading {
 		margin: 0;
 	}
 
+	.main-cat {
+		margin-left: auto;
+	}
 	
-
 
 }
 
