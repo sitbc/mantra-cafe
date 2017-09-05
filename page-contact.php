@@ -27,20 +27,23 @@
 					<dd><a href="callto:<?php echo get_post_meta($post->ID, 'telefon', true); ?>"><?php echo get_post_meta($post->ID, 'telefon', true); ?></a></dd>
 				</dl>
 			</address>
-			
+			<p><a href="https://www.facebook.com/MantraCoffee" class="social-media" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a> <a href="https://www.instagram.com/mantra_specialty_coffee/" class="social-media" target="_blank"><i class="fa fa-instagram fa-2x"></i></a></p>
 		</div>
 		<div class="well col-md-6">
-			<form name="register_form" id="register_form" method="post" action="">
-				<div id="reg_success" class="success"><i class="fa fa-check"></i> Üzenetét sikeresen továbbítottuk.</div>
-				<div id="reg_fail" class="error"><i class="fa fa-exclamation-circle"></i> Hiba lépett fel az üzenet küldése során.</div>
+			<form name="contact_form" id="contact_form" method="post" action="<?php bloginfo('template_url'); ?>/js/email.php">
+				
+				<input type="text" name="spam" id="spam">
+				
+				<div id="mail_success" class="success"><i class="fa fa-check"></i> Üzeneted sikeresen továbbítottuk.</div>
+				<div id="mail_fail" class="error"><i class="fa fa-exclamation-circle"></i> Hiba lépett fel az üzenet küldése során.</div>
 
-				<div id="name_error" class="error"><i class="fa fa-exclamation-circle"></i>Kérjük adja meg a nevét</div>
-				<input type="text"  name="name" id="name" class="form-control" placeholder="név">
+				<div id="name_error" class="error"><i class="fa fa-exclamation-circle"></i>Kérjük add meg a neved.</div>
+				<input type="text"  name="name" id="name" class="form-control" placeholder="Név">
 
-				<div id="email_error" class="error"><i class="fa fa-exclamation-circle"></i>Kérjük adjon meg egy érvényes email címet</div>
+				<div id="email_error" class="error"><i class="fa fa-exclamation-circle"></i>Kérjük adj meg egy érvényes email címet.</div>
 				<input type="email" name="emailaddress" id="emailaddress" class="form-control push-down-s" placeholder="Email">
 				
-				<div id="message_error" class="error"><i class="fa fa-exclamation-circle"></i> Kérjük írja le üzenetét.</div>
+				<div id="message_error" class="error"><i class="fa fa-exclamation-circle"></i> Kérjük írd le az üzeneted.</div>
 				<textarea name="message" id="message" class="form-control" placeholder="Üzenet"></textarea>
 
 				<button class="btn btn-default" id="send_message" type="submit">Üzenet küldése</button>
@@ -53,5 +56,5 @@
 			
 		</div>	
 </div>
-
+<script src="<?php bloginfo('template_url'); ?>/js/email.js" type="text/javascript"></script>
 <?php get_footer(); ?>

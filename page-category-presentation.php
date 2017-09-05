@@ -10,7 +10,7 @@
 	<div class="bkg-filter"></div>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4 heading">
+			<div class="col-lg-4 col-md-6 col-sm-6 heading">
 				<h1><?php the_title(); ?></h1>
 				<p class="heading-p"><?php echo get_post_meta($post->ID, 'alcim', true); ?></p>
 			</div>
